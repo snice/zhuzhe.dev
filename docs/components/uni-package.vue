@@ -160,8 +160,7 @@ import {
 } from 'ant-design-vue'
 import { PlusOutlined, MinusOutlined, DownloadOutlined } from '@ant-design/icons-vue'
 import { h, ref, computed } from 'vue';
-import { saveAs } from 'file-saver';
-
+import FileSaver from 'file-saver';
 const activeKey = ref('1');
 const androidPlugin = ref(true)
 const iosPlugin = ref(false)
@@ -289,7 +288,7 @@ const pJson = computed(() => {
 })
 const download = async () => {
     var blob = new Blob([pJson.value], { type: "application/json;charset=utf-8" });
-    saveAs(blob, "package.json");
+    FileSaver.saveAs(blob, "package.json");
 }
 </script>
 
