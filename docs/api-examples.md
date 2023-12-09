@@ -28,6 +28,7 @@ const { theme, page, frontmatter } = useData()
 ```
 
 <script setup>
+import UniPackage from './components/uni-package.vue'
 import { useData } from 'vitepress'
 
 const { site, theme, page, frontmatter } = useData()
@@ -35,8 +36,10 @@ const { site, theme, page, frontmatter } = useData()
 
 ## Results
 
+<uni-package />
+
 ### Theme Data
-<pre>{{ theme }}</pre>
+<div class="language-json"><pre><code>{{ theme }}</code></pre></div>
 
 ### Page Data
 <pre>{{ page }}</pre>

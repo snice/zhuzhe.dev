@@ -8,6 +8,10 @@
     "vitepress": "1.0.0-rc.31"
   },
   "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "ant-design-vue": "^4.0.7",
+    "axios": "^1.6.2",
+    "file-saver": "^2.0.5",
     "vue": "^3.3.9"
   }
 }
