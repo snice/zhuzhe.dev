@@ -10,4 +10,4 @@ outline: deep
 import UniPkgCli from '../components/uni-pkg-cli.vue'
 </script>
 
-<uni-package />
+<uni-pkg-cli />
