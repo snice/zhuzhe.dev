@@ -30,6 +30,10 @@ export default defineConfig({
               {
                 text: 'uni-app插件package.json生成',
                 link: '/tools/uni-plugin-pkg'
+              },
+              {
+                text: 'uni-app(x)离线打包工具辅助',
+                link: '/tools/uni-pkg-cli'
               }
             ]
           }
